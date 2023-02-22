@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial
+}
+
+.selector {
+    padding: 1em 0 1em 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media all and (max-width: 1000px) {
+    .selector {
+        padding: 1em 0;
+        font-size: 2.9em;
+    }
+}

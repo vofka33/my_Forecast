@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial
+}
+
+header{
+    color: white;
+    background-color: #1240AB;
+    font-size: 3em;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
