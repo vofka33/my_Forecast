@@ -36,7 +36,7 @@ function Weather(props) {
                         </div>
                         <div className="block">
                             <div className="blockLeft">Давление мм рт. ст.</div>
-                            <div className="blockRight">{Math.round(weather.pressure * 0.75006156)}</div>
+                            <div className="blockRight">{(weather.pressure * 0.75006156).toFixed()}</div>
                         </div>
                         <div className="block">
                             <div className="blockLeft">Влажность</div>

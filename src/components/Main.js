@@ -35,28 +35,3 @@ function Main() {
 }
 
 export default Main;
-
-// function Main (){
-//
-//     const cityList = ['Москва', 'Самара', 'Анадырь', 'Санкт-Петербург','Магадан', 'Новосибирск', 'Екатеринбург', 'Казань', 'Нижний Новгород',
-//         'Челябинск', 'Ростов-на-Дону', 'Уфа', 'Омск', 'Красноярск', 'Воронеж', 'Пермь', 'Волгоград', 'Якутск'];
-//
-//     // Наполняем содержимое select
-//     const options = cityList.map((text, index) => {
-//         return <option key={index}>{text}</option>;
-//         console.log ("options=", options)
-//     });
-//
-//         return (
-//             <div className="itemRight">
-//                 <select value={city} onChange={e=>setCity(e.target.value)}>
-//                     <option disabled>Выберите город</option>
-//                     {options}
-//                 </select>
-//             </div>
-//         );
-//
-//
-// }
-//
-// export default Main;
